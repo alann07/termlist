@@ -6,6 +6,10 @@ logger = logging.getLogger(__name__)
 
 
 def parse_args():
+    '''
+    Parse the command line arguments from console
+    :return: the file names for input, command and output
+    '''
     input_f = '<input-file>'
     command_f = '<commands-file>'
     output_f = '<output-file>'

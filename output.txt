@@ -8,10 +8,9 @@
 1 1
 1 1
 a mechanics quantum of 
-IN_ORDER
-IN_ORDER
-IN_ORDER
-IN_ORDER
-IN_ORDER
-IN_ORDER
-command TOP_order is not recognized
+TRUE
+TRUE
+FALSE
+FALSE
+TRUE
+TRUE
