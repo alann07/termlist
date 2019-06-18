@@ -1,0 +1,17 @@
+FREQUENCY quantum mechanics
+FREQUENCY Schrodinger schrodinger
+FREQUENCY cat? cat subject. subject
+FREQUENCY Test
+FREQUENCY quark
+FREQUENCY void
+FREQUENCY mech
+FREQUENCY b c
+FREQUENCY should separate
+TOP 4
+IN_ORDER Heisenberg Bohr and Dirac
+IN_ORDER Heisenberg Bohr Dirac
+IN_ORDER Heisenberg Dirac Bohr
+IN_ORDER Heisenberg Einstein Dirac
+IN_ORDER learn
+IN_ORDER j k l m n
+TOP_order 1
