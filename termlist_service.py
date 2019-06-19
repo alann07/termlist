@@ -93,7 +93,11 @@ class TermlistService:
                     else:
                         output_f.write(str(counter[cmd[i]]) + '\n')
             elif cmd[0] == 'TOP':
-                result = self.get_sort_string(counter.most_common(int(cmd[1].strip())))
+                top_num = int(cmd[1].strip())
+                if top_num > 0:
+                    result = self.get_sort_string(counter.most_common(top_num))
+                else:
+                    result = 'number input should be greater than zero for command TOP'
                 output_f.write(result + '\n')
             elif cmd[0] == 'IN_ORDER':
                 is_in_order = self.check_order(term_list, cmd)
